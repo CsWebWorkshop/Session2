@@ -1,4 +1,4 @@
-# Session 2 Readme
+# Session 2
 * This readme document is created to summarize the details of the second session of the Front-end Development course. In this session, we learned about several important topics in front-end development.
 
 ## Hint
