@@ -1,0 +1,99 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+    font-family: "vazir", Arial, Helvetica, sans-serif;
+}
+
+
+/* ======| navbar |======= */
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.profile, .basket{
+    background-color: #ccc;
+    padding: 0.5rem 0.5rem 0.25rem;
+    border-radius: 0.25rem;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.profile:hover, .basket:hover{
+    background-color: #aaa;
+}
+
+.num{
+    background-color: #ffa500;
+    color: #fff;
+    font-size: 0.75rem;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+.logo-container{
+    width: 5rem; height: 5rem;
+}
+
+.logo-container #logo{
+    width: 100%; height: 100%;
+}
+
+.menu{
+    height: 3rem;
+    background-color: #efefef;
+    direction: rtl;
+    padding: 0 5.5rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-item{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    transition: 0.25s ease-in-out;
+    border-radius: 0.25rem;
+}
+.nav-item:hover{
+    background-color: #ffa500;
+    color: #fff;
+}
+
+/* =======| header |======= */
+
+.header{
+    height: 82vh;
+    background-image: url("./../images/header/orange\ background.jpg");
+    background-color: #ccc;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 5rem;
+}
+.desc{
+    font-size: 1.5rem;
+}
